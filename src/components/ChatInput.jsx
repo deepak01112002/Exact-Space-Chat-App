@@ -5,7 +5,7 @@ const ChatInput = ({ onSendMessage }) => {
   const [message, setMessage] = useState("");
   const [showMentionList, setShowMentionList] = useState(false);
 
-  const usernames = ["User1", "User2", "User3"];
+  const usernames = ["Deepak", "Pallavi", "Rambha","Rajesh"];
 
   const handleSendMessage = () => {
     if (message.trim() !== "") {
